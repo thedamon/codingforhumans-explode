@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Coding for Humans</title>
+
+  <meta name="description" content="Slidedeck from a presentation about Using Design, Psychology and Empathy to Write Better Code">
+  <meta name="author" content="Damon Muma">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/grobinger.css" id="theme">
+  <style>
+
+  </style>
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="reveal">
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+
+<section class="centered">
+  <section><h1>Coding for Humans</h1><h3>Using Design, Psychology and Empathy to Make Code Better</h3>
+
+  <aside class="notes">Fel-low huMANS. Greetings. I travel far today to speak with you about you. You are humans, confirm? And one of developers, coders, programmers, misc?</aside>
+  </section>
+
+  <section><h2>“Damon Muma”</h2><br/>
+    <h3><i class="fa fa-twitter" aria-hidden="true"></i> @thedamon</h3>
+    <h3>Sr Front End Developer, Digital Services, London Life</h3>
+    <aside class="notes">
+      <br/>In the past I've put a picture of myself on my slides, but then I realized you can all just look at me to see what I look like. redundant</aside>
+  </section>
+  <section>
+    <h2>Interface and Experience Design</h2>
+    <aside class="notes">
+      Coding for humans.<br>when we code we create an interface between humans and computers, a bridge of communication<br>Low level - high level.<br>Coding for humans means moving that language closer to how WE communicate. not english, or even spoken language, but also visual, auditory? cognition in general, communication.<br>Perception, cognition<br>I want to talk about how that is beneficial and call out some specific examples of things we can do to further this goal.
+    </aside>
+  </section>
+</section>
+
+<!--<section class="definitions">-->
+  <!--<section><h1>Definitions</h1>-->
+    <!--<aside class="notes">In case there's any lawyers in the room, we should define some of the terms I'll be using so there's no confusion and no ensuant legal procedings.<br/>-->
+      <!--Defining terms is actually an extremely important thing to do at the start of a project to help designers, developers, clients, etc be on the same page<br/>-->
+    <!--Actually let's play a game. I show you a word, with an emoji clue. You yell out definitions.<br>-->
+      <!--I say "that is a great idea" while thinking "oh man that's better than my definition, and kind of ruins the whole presentation."<br> and then show you the definition I already have on the slides!"-->
+    <!--</aside></section>-->
+  <!--<section class="centered"><h1 class="monster">🗣 👍</h1></section>-->
+  <!--<section><h4>What is Design? 💡</h4>-->
+  <!--<h2 class="fragment">Design is planning</h2></section>-->
+
+  <!--<section><h4>What is Graphic Design? 🎨</h4>-->
+  <!--<h2 class="fragment">"Graphic Design" is planning graphics</h2></section>-->
+
+  <!--<section><h4>What is UX? 💩</h4>-->
+
+    <!--<img class="fragment fixie current-visible" src="img/uivsux.jpg" />-->
+    <!--<h2 class="fragment fade-in">User Experience is a line item on an invoice so you can get enough money from a client to do a good design</h2>-->
+  <!--</section>-->
+
+  <!--<section><h4>What is Empathy? 🤗</h4>-->
+    <!--<h2 class="fragment">Empathy is identifying with the feelings of other people</h2>-->
+  <!--</section>-->
+
+  <!--<section><h4>What is Feelings? 🤖</h4>-->
+    <!--<h2 class="fragment">Feelings make us human and bring meaning to our lives</h2>-->
+  <!--</section>-->
+
+  <!--<section><h4>What is Psychology? 🤔</h4>-->
+    <!--<h2 class="fragment">Psychology is the study of behaviour and feelings</h2>-->
+    <!--<aside class="notes">Spoiler alert: We are fragile creatures and not as rational as we like to think.</aside>-->
+  <!--</section>-->
+
+  <!--<section><h4>What is Programming? 💻</h4>-->
+    <!--<h2 class="fragment">input <small>🔀</small> output</h2>-->
+    <!--<h2 class="fragment">(with code)</h2>-->
+  <!--</section>-->
+
+  <!--<section><h4>What is Input? 📥</h4>-->
+    <!--<h2 class="fragment">requirements, syntax, process, tooling</h2>-->
+  <!--</section>-->
+
+  <!--<section><h4>What is Design?</h4>-->
+    <!--<h2 class="fragment">Using psychology and empathy to understand the user and make a more intuitive interface</h2>-->
+  <!--</section>-->
+  <!--<section><h4>Designing code</h4>-->
+    <!--<h2>Using psychology and empathy to understand the user and make a more intuitive interface</h2>-->
+    <!--<h2>Users = developers</h2>-->
+    <!--<h2>Interface = code</h2>-->
+  <!--</section>-->
+<!--</section>-->
+
+<section>
+  <section>
+    <h1>Identifying your target market</h1>
+    <aside class="notes">
+      A big part of UX and good design is understanding your users.
+      The better you understand your users, the better a system you can build.
+    </aside>
+  </section>
+  <section>
+    <h2>You and Your Team</h2>
+    <aside class="notes">
+      But what do we know? Well... we're humans !(?)
+    </aside>
+  </section>
+  <section>
+    <h2>Humans</h2>
+    <ul class="">
+      <li>Rational</li>
+      <li>Forthcoming</li>
+      <li>Super chill</li>
+      <li>Remember all things always</li>
+    </ul>
+  </section>
+  <section data-background="img/biases.png">
+<pre class=""><code data-trim data-no-escape>
+document.querySelectorAll(
+  '.page-List_of_cognitive_biases .wikitable td > b:first-child'
+).length
+
+  //172
+</code></pre>
+  </section>
+  <section>
+    <h2>Humans</h2>
+    <ul>
+      <li>Occasionally rational</li>
+      <li>Make mistakes under stress</li>
+      <li>Easily confused, distracted</li>
+      <li>Can solve hella problems, though</li>
+      <li>We deserve to be happy *</li>
+    </ul>
+    <aside class="notes">I mainly bring this up because a lot of people say things like "well a person should do it THIS way". or "we built it this way".. I think our great strength as a species is to overcome our weaknesses. But we have to be aware of them. And decide that we can try to change things.<br>
+    </aside>
+
+  </section>
+
+  <section>
+    <h2>Developers</h2>
+    <ul>
+      <li>Special <em>and</em> unique</li>
+      <li>Deadlines</li>
+      <li>Tooling Fatigue</li>
+      <li>Much time debugging</li>
+      <li>Rarely old problems (at least to us) (ideally)</li>
+    </ul>
+    <aside class="notes">we get our own category.
+      deadlines - back of the funnel. <br>
+      things change fast, they get better, but it's a lot to keep up with.<br>
+      we sink hours into a hard to find error.
+      we do the things we know how to do without noticing.</aside>
+  </section>
+  <section>
+    <blockquote><p>Hell is other people</p><cite>Jean-Paul Sartre</cite></blockquote>
+  </section>
+  <section>
+    <blockquote><p>Hell is other people's code</p><cite>anonymous</cite></blockquote>
+    <aside class="notes">Very specific domain knowledge, working together.</aside>
+  </section>
+</section>
+
+
+  <!--REQUIREMENTS-->
+
+
+<section>
+  <section>
+    <h1>Requirements</h1>
+    <aside class="notes">
+  So lets say we have a new project. Make a system where coders get more work done and are happier.<br>
+      We don't know anything about what it looks like yet because we're still in the strategy phase<br>
+      We did the user research part.
+    </aside>
+  </section>
+  <section>
+    <h2>What are we gonna do?</h2>
+    <ul>
+      <li>Maximize productivity</li>
+      <li>Decrease frustration</li>
+      <li>Increase happiness</li>
+      <li>Decrease errors</li>
+      <li>Increase adaptability</li>
+    </ul>
+    <aside class="notes"></aside>
+  </section>
+</section>
+
+  <!--OUR SYSTEM (process, tooling, code)-->
+
+<section>
+  <section>
+    <h2>Our Toolbox:</h2> <h1>Process, Tooling, Code</h1>
+    <aside class="notes">
+      There's 3 categories of things we have to Make Everything Better(tm): Process, Tooling, Code. They also stand in the "potentially make everything worse(tm) category
+    </aside>
+  </section>
+  <section>
+    <h2>Process</h2>
+    <ul class="">
+      <li>Code review</li>
+      <li>Deployments</li>
+      <li>Documenting Requirements</li>
+      <li>Task management</li>
+      <li>Developer Development</li>
+      <li>Knowledge sharing</li>
+    </ul>
+    <aside class="notes">such a huge difficult beast. so huge and difficult in fact that I will largely ignore it. But you shouldn't.</aside>
+  </section>
+  <section>
+    <h2>Tooling</h2>
+    <ul class="">
+      <li>Linting</li>
+      <li>IDEs, your own tools</li>
+      <li>Minifiers, transpilers</li>
+      <li>Package management</li>
+      <li>Version control</li>
+      <li>Testing</li>
+      <li>Module Bundlers</li>
+      <li>Task runners</li>
+      <li>Virtual machines</li>
+      <li>Database migrations</li>
+    </ul>
+    <aside class="notes">big and should be bigger. tooling is in a way like metaprogramming. it takes work away from you. it's great. but difficult to get into. I'm going to touch on some of these as I talk about more specific techniques.</aside>
+  </section>
+  <section>
+    <h2>Code</h2>
+    <ul>
+      <li>Languages</li>
+      <li>Libraries</li>
+      <li>Legacy</li>
+      <li>Style</li>
+      <li>Syntax</li>
+      <li>Structure</li>
+      <li>etc.</li>
+    </ul>
+    <aside class="notes">pretty self explanatory. but note some of the code you wrote. some of the code other people wrote.</aside>
+  </section>
+</section>
+
+  <!--<section data-background="img/segwaypolo.jpg"></section>-->
+
+
+  <!--INTUITIVE-->
+
+
+<section>
+  <section><h1>Intuitive code 🍼</h1></section>
+  <section>
+    <h2>See code</h2><br><br><h1 style="display:inline">↕</h1> <span style="vertical-align: 28px;">time = n</span><br><br><br><h2>Understand Code</h2>
+  </section>
+ <section>
+    <h2 style="margin:0">See code</h2><h1 style="display:inline; margin:0">↕</h1><span style="vertical-align: 28px;">time = n/10</span><h2 style="margin-top:-20px;vertical-align:30px">Understand Code</h2>
+  </section>
+  <section>
+    <ul>
+      <li class="fragment">2m: find function</li>
+      <li>2s: read function</li>
+      <li>8s: reread function, more carefully</li>
+      <li>3m: get distracted by email</li>
+      <li>2s: read function</li>
+      <li>20s: try to figure out what it's doing</li>
+      <li>3m: google/stack overflow!</li>
+      <li>3m: distracted by context switch</li>
+    </ul><aside class="notes">How much does that add up in one year? What will your ROIs look like afterwards?</aside>
+  </section>
+  <section>
+    <h2>User Interface Design</h2>
+    <ul>
+      <li>Discoverability</li>
+      <li>Clarity</li>
+      <li>Hierarchy of information</li>
+      <li>Context</li>
+      <li>Consistency</li>
+      <li>Error prevention and recovery</li>
+    </ul>
+    <aside class="notes">These are some of the most important tenets of user interface design. I ripped them off of Greg Neely. It's almost eerie how exactly they apply to code. It's really about thinking. and understanding humans and feelings. easily derailed, not always great at making decisions. Decision paralysis.</aside>
+  </section>
+</section>
+
+
+  <!--NOISE REDUCTION-->
+
+
+<section>
+  <section data-background="img/noisereduction.png">
+    <h1>Noise Reduction 🎵</h1>
+    <aside class="notes">this is such an issue in our time. the damn UI designers and their sticky apps. Chantelle would probably have some great way to get some of the noise out of your life. I find the idea of noise very powerful.</aside>
+  </section>
+  <section>
+    <h1>Signal:Noise Ratio</h1>
+  </section>
+  <section><img class="stretch" src="img/chartjunk.png"/></section>
+  <section>
+    <h2>Noisy</h2>
+    <ul>
+      <li>Incomprehensible algorithms</li>
+      <li>Exact Repetition</li>
+      <li>Near Repetition</li>
+      <li><code>"^\(*\d{3}\)*( |-)*\d{3}( |-)*\d{4}$"</code></li>
+      <li>Side effects</li>
+      <li>Inexplicable integers</li>
+      <li class="fragment">syntax?</li>
+    </ul><aside>UI is a bridge btwn human language and computer language</aside>
+  </section>
+  <section>
+<pre><code data-trim data-no-escape>
+var newList;
+for (var i = list.length - 1; i >= 0; i -= 1) {
+  newList[] = transform(list[i]);
+}
+
+  //vs
+
+newlist = list.map(transform);
+</code></pre><aside class="notes">there's also a great lodash function: </aside>
+    </section>
+    <section>
+<pre><code data-trim data-no-escape>
+"There are " + data.string1.numDogs + " dogs attacking my "
+  + data.string1.target"
+
+  //vs
+
+const {numDogs, target} = data.string1;
+
+`There are ${numDogs} dogs attacking my ${target}`
+</code></pre>
+    </section>
+
+    <section>
+<pre><code data-trim data-no-escape>
+{
+  numDogs: numDogs,
+  target: target
+}
+
+  //same as
+
+{numDogs, target}
+</code></pre>
+    </section>
+  <section><img class="stretch" src="img/tidyart1.jpg"/></section>
+  <section><img class="stretch" src="img/tidyart2.jpg"/<small><a href="http://www.demilked.com/tidying-up-art-ursus-wehrli/">© Ursus Wehrli</a></small><aside class="notes"><p>extract repetitive and complex behaviours.<br>hide them behind a nice function call.</p></aside></section>
+  <section>Repetitive tasks prone to human error</section>
+</section>
+
+
+  <!--COGNITIVE LOAD-->
+
+
+<section>
+  <section><h1>Cognitive Load 🚚</h1><aside class="notes">
+    This is sort of the cause of the other things like, noise, clarity, ease of understanding.
+  </aside></section>
+  <section><h2>Your brain is a finite resource.</h2></section>
+  <section>
+<pre><code data-trim data-no-escape>
+  //..
+  qok = foo()
+  bar(qok)
+
+  //...
+  myThing = [bar + '', pseudo]
+
+  } else {  //else what?
+    doThis();
+    return false;
+  }
+}
+</code></pre>
+  </section>
+  <section>
+<pre><code data-trim data-no-escape>
+if (!requiredCondition) return false;
+
+//...etc
+</code></pre>
+  </section>
+  <section>
+<pre><code data-trim data-no-escape>
+  function classMethodNumber45(name, context, arr, mode, elem, data, url, language){
+   if {
+     //...
+     //...line 125
+     if (data){
+        url = url + "data"
+        fetch(url).then(function(returnData){
+          for (var i = returnData.length - 1; i >= 0; i -= 1) {
+            // do some stuff here
+          }
+        });
+     }
+   } else if (){
+
+   }
+  //etc
+  }
+</code></pre>
+    <aside class="notes">
+      <ul>
+      <li>function length</li>
+      <li>number of parameters in a function</li>
+      <li>levels of indent</li>
+      <li>long files</li>
+      </ul>
+    </aside>
+    <aside class="notes">these are all ESlintable, too.</aside>
+
+  </section>
+  <section>
+    <h1>J++</h1>
+    <h2>and the curious case of the nested loop</h2>
+  </section>
+  <section>
+    <h2>Cyclomatic complexity 😵</h2>
+    <p>The number of unique paths through your application</p>
+
+    <img class="stretch" src="img/cyclo1.png"/>
+  </section>
+  <section>
+    <h2>ESLint rules 👌</h2>
+    <ul>
+      <li>complexity</li>
+      <li>max-depth</li>
+      <li>max-len</li>
+      <li>max-nested-callbacks</li>
+      <li>max-params</li>
+      <li>max-statements</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Reduce the information necessary to understand a given statement 🏖</h2>
+    <h2>Can you say what it does it in a sentence?</h2></section>
+  <section>
+    <h2>Encapsulation & composition 🌍⭐️⭕️</h2>
+    <img class="stretch fragement" src="img/reactstream.jpg"/>
+    <aside class="notes">Emily Weiss is doing an awesome talk right now about how to share these encapsulations with designers for User Interface development. Atomic design. that everything can be understood at its own level and other levels only care about the result. SRP</aside>
+  </section>
+  <section>
+    <img class="stretch" src="img/blamespartacus.png" /><aside class="notes">convention. style guides. airbnb eslint.</aside>
+  </section>
+</section>
+
+
+  <!--CLARITY-->
+
+
+<section>
+  <section><h1>Clarity 🌞️</h1></section>
+
+  <section><h2>Naming things 😰</h2></section>
+  <section><blockquote><p>If you don’t know what a thing should be called, you cannot know what it is. If you don’t know what it is, you cannot sit down and write the code.
+  </p></blockquote></section>
+  <section><h2>Drop hints</h2>
+
+<pre><code data-trim data-no-escape>
+const isValid //> valid
+const numFerrets || ferretCount //> ferret
+
+//get, fetch, find, create
+</code></pre>
+
+  </section>
+  <section><h2>Use design patterns, carefully</h2>
+
+<pre><code data-trim data-no-escape>
+formatter, adapter, service
+</code></pre>
+
+  </section>
+
+  <section><h2>Specific and Succinct</h2><p>*watch for easily confused or vague words</p></section>
+
+
+  <section><h2>Parsing</h2>
+    <p><code>investmentProductCollection</code><br>
+       <code>incomeProductCollection</code></p>
+
+    <p class="fragment">78% similarity</p>
+    <p class="fragment">SavingsPlans, incomeProducts</p>
+  </section>
+
+  <section><h2>Talk to people</h2><aside class="notes">if you call it what business calls it who calls it what the designers call it... that's good</aside></section>
+
+  <section><h2>Don't not name things</h2></section>
+
+</section>
+<section>
+  <section><h1>So what?</h1></section>
+
+  <section><h2>You are a user interface designer</h2><aside class="notes">you're a lot of other things, too. But I think it's really valuable to think in these terms.</aside></section>
+
+  <section><h2>Build habits</h2>
+  <aside class="notes">start slow. adopt some techniques. see if you can find what's stopping you (blockers). I switched to using webstorm bc i realized i was hesitant to create new files bc it was difficult to rename them and i wanted to skip that part where i was figuring out what to call them.
+  </aside>
+  </section>
+
+  <section><h2>Your process is a design project</h2>
+  <aside class="notes">
+  <br> code is a user interface.
+  <br> keep iterating. introduce tooling. keep reviewing.
+  <br> you can't do it perfect and ship. but you can track what you want to do better next time.
+  <br> track the frustrations and the stuff that drives you up the wall.
+  <br> try things, evaluate them. not necessarily to quantify it, but. do you like it. why. why. why. (user research)
+  <br> talk about it with your team, but try to also be positive.
+  <br> celebrate improvements
+</aside>
+  </section>
+  <section><h2>Higher and higher</h2>
+  <aside class="notes">
+  <br>UI is how humans communicate with machines. the more successful it is, the more human it is.
+  <br>machines are getting better and better at the machine stuff. that shit is programmed. we have compilers and minifiers and all sorts of stuff.
+  <br>high level? take your code higher!
+  <br>we will be better off focusing on what humans are good at as machines become better and better at what they're good at.
+</aside>
+  </section>
+  <section>
+    <h2>Further Reading</h2>
+    <ul>
+      <li><a href="http://elijahmanor.com/javascript-smells/"><strong>Eliminate javascript Code smells</strong> (</a></li>
+      <li><a href="https://www.youtube.com/watch?v=_EANG8ZZbRs"><strong>Programming style and your brain</strong> (</a></li>
+      <li><a href="http://sevenstrokes.net/learn-how-write-good-code"><strong>Learn how to write good code</strong> (overarching title, but some great tips)</a></li>
+      <li><a href="http://sevenstrokes.net/learn-how-write-good-code"><strong>Learn how to write good code</strong> (overarching title, but some great tips)</a></li>
+      <li><a href="https://www.youtube.com/watch?v=PUv66718DII"><strong>Inventing on Principle</strong> (must-watch)</a></li>
+    </ul>
+  </section>
+</section>
+
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+<script>
+
+// Full list of configuration options available at:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+controls: true,
+progress: true,
+history: true,
+center: true,
+
+transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+// Optional reveal.js plugins
+dependencies: [
+{
+  src: 'lib/js/classList.js', condition: function () {
+    return !document.body.classList;
+  }
+},
+{
+  src: 'plugin/markdown/marked.js', condition: function () {
+    return !!document.querySelector('[data-markdown]');
+  }
+},
+{
+  src: 'plugin/markdown/markdown.js', condition: function () {
+    return !!document.querySelector('[data-markdown]');
+  }
+},
+{
+  src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+    hljs.initHighlightingOnLoad();
+  }
+},
+{src: 'plugin/zoom-js/zoom.js', async: true},
+{src: 'plugin/notes/notes.js', async: true}
+]
+});
+
+</script>
+</body>
+</html>
