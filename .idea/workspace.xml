@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc06e263-435c-4e20-89ac-5170a9927d0a" name="Default" comment="">
+    <list default="true" id="cc06e263-435c-4e20-89ac-5170a9927d0a" name="Default" comment="update">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/biases.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blamespartacus.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bulkrename.jpeg" />
@@ -55,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="545" column="165" selection-start-line="545" selection-start-column="165" selection-end-line="545" selection-end-column="165" />
+            <state relative-caret-position="-493">
+              <caret line="508" column="35" selection-start-line="508" selection-start-column="35" selection-end-line="508" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#section#1;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#section#1;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -103,6 +103,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -119,6 +132,7 @@
         <option value="$PROJECT_DIR$/css/theme/grobinger.css" />
         <option value="$PROJECT_DIR$/css/reveal.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -207,6 +221,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v4.4.3/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="readme&#9;FILE&#9;file:///Users/l392044/Documents/websites/slidedecks/codingforhumans-explode/README.md" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -289,12 +304,12 @@
       <updated>1462227851533</updated>
       <workItem from="1462227853162" duration="55559000" />
       <workItem from="1462651302041" duration="2191000" />
-      <workItem from="1462654992001" duration="2282000" />
+      <workItem from="1462654992001" duration="2410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60032000" />
+    <option name="totallyTimeSpent" value="60160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="520" y="106" width="1180" height="1136" extended-state="0" />
@@ -374,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="545" column="165" selection-start-line="545" selection-start-column="165" selection-end-line="545" selection-end-column="165" />
+        <state relative-caret-position="-493">
+          <caret line="508" column="35" selection-start-line="508" selection-start-column="35" selection-end-line="508" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#section#1;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#section#1;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -385,6 +400,17 @@
             <element signature="n#style#0;n#h2#1;n#section#2;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
